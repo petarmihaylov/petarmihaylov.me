@@ -1,0 +1,169 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+/* HEADING */
+
+.header-content {
+  height: 100%;
+}
+
+header {
+  height: 25vw;
+  max-height: 150px;
+  width: 100%;
+}
+
+.initials {
+  font-family: 'Sonsie One', cursive;
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.delimiter {
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: #f5a623;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+h1 {
+  float: left;
+  padding-top: 5%;
+  width: 80%;
+  font-weight: normal;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+summary {
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+    text-align: center;
+  }
+}
+
+
+/* MAIN SECTIONS */
+
+.hero {
+  padding: 3em;
+  max-width: 100%;
+  background-color: #307699;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.my-picture {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 50%;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.iama {
+  max-width: 100%;
+  color: #969696;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+.my-info {
+  max-width: 100%;
+  font-size: 22px;
+  margin: 0 auto 30px;
+}
+
+.my-info:last-of-type {
+  margin: 0;
+}
+
+.my-name {
+  font-size: 36px;
+  margin: 0.2em;
+}
+
+.my-city {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.about-me {
+  padding: 1em;
+}
+
+.employer-logo {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
