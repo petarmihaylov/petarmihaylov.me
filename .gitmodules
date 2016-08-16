@@ -1,0 +1,3 @@
+[submodule "projects/resume"]
+	path = projects/resume
+	url = https://github.com/petarmihaylov/UFEWDN-P2-Resume.git
