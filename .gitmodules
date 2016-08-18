@@ -1,3 +1,6 @@
 [submodule "projects/resume"]
 	path = projects/resume
 	url = https://github.com/petarmihaylov/UFEWDN-P2-Resume.git
+[submodule "projects/classic-arcade-game-clone"]
+	path = projects/classic-arcade-game-clone
+	url = https://github.com/petarmihaylov/UFEWDN-P3-Classic-Arcade-Game-Clone.git
