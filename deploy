@@ -1,6 +1,15 @@
 #!/bin/bash
 # Deploy script to deploy the website to GitHub Pages
 
+echo "Updating project: $1..."
+cd projects/$1
+git pull origin master
+git branch -f gh-pages
+git checkout --track origin/gh-pages
+
+# Switching back to the project's main directory
+cd ../..
+
 echo "Deleting gh-pages branch..."
 git branch -d gh-pages
 
