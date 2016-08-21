@@ -1,0 +1,13 @@
+#!/bin/bash
+# Deploy script to deploy the website to GitHub Pages
+
+echo "Deleting gh-pages branch..."
+git branch -d gh-pages
+
+echo "Re-create the gh-pages branch..."
+git branch gh-pages
+
+echo "Push gh-pages to origin/gh-pages"
+git push origin gh-pages
+
+echo "Deploy complete."
