@@ -17,8 +17,8 @@ git add .
 git commit -m "Update Project: $1"
 
 echo "Deleting gh-pages branch..."
-git branch -d gh-pages
-git push origin --delete
+git branch -D gh-pages
+git push origin --delete gh-pages
 
 echo "Re-create the gh-pages branch..."
 git branch gh-pages
