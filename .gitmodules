@@ -7,3 +7,6 @@
 [submodule "projects/website-optimization"]
 	path = projects/website-optimization
 	url = https://github.com/petarmihaylov/UFEWDN-P4-Website-Optimization.git
+[submodule "projects/neighborhood-map"]
+	path = projects/neighborhood-map
+	url = https://github.com/petarmihaylov/UFEWDN-P5-Neighborhood-Map.git
